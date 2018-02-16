@@ -3,30 +3,11 @@
     flex-wrap: nowrap;
   }
 
-.flex-container > .center {
+.flex-container > div {
     width: auto;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 12px;
-  }
-
-.flex-container > .left {
-    align-items: left;
-    width: auto;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 12px;
-  }
-
-.flex-container > .right {
-    align-items: right;
-    width: auto;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 12px;
+    margin: 5px;
+    text-align: left;
+    font-size: 20px;
   }
 
 .header {
@@ -36,3 +17,10 @@
     padding: 20px 0px 20px 0px;
 
 }
+
+div > .right {
+    align-content: flex-end;
+    width: auto;
+    margin: 5px;
+    text-align: left;
+  }
