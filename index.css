@@ -31,5 +31,6 @@ div > .left {
     text-align: center;
     color: white;
     background-color: black;
-    padding: 20px 0px 20x 0px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
   }
